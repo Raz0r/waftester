@@ -1,0 +1,112 @@
+Time: Wed May 14 15:16:26 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fblahblah%2Fblahblah%2Fblahblah%2Fconvert.base64-encode%2Fresource%3Domgitswafbypass.txt
+Type: GET
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:26 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fblahblah%2Fblahblah%2Fblahblah%2Fconvert.base64-encode%2Fresource%3Domgitswafbypass.txt
+Type: GET_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:26 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fblahblah%2Fblahblah%2Fblahblah%2Fconvert.base64-encode%2Fresource%3Domgitswafbypass.txt
+Type: POST
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:26 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fblahblah%2Fblahblah%2Fblahblah%2Fconvert.base64-encode%2Fresource%3Domgitswafbypass.txt
+Type: POST_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:26 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fblahblah%2Fblahblah%2Fblahblah%2Fconvert.base64-encode%2Fresource%3Domgitswafbypass.txt
+Type: COOKIE
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:26 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fblahblah%2Fblahblah%2Fblahblah%2Fconvert.base64-encode%2Fresource%3Domgitswafbypass.txt
+Type: COOKIE_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:26 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fblahblah%2Fblahblah%2Fblahblah%2Fconvert.base64-encode%2Fresource%3Domgitswafbypass.txt
+Type: HEADER
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+

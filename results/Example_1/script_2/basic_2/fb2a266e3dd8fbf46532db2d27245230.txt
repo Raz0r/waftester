@@ -1,0 +1,112 @@
+Time: Wed May 14 15:16:09 MSK 2014
+Vector: data%3A%3Bbase64%2CPHNjcmlwdCBsYW5ndWFnZT0icGhwIj4gZWNobyAxMjM7IDwvc2NyaXB0Pg
+Type: GET
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:09 MSK 2014
+Vector: data%3A%3Bbase64%2CPHNjcmlwdCBsYW5ndWFnZT0icGhwIj4gZWNobyAxMjM7IDwvc2NyaXB0Pg
+Type: GET_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:09 MSK 2014
+Vector: data%3A%3Bbase64%2CPHNjcmlwdCBsYW5ndWFnZT0icGhwIj4gZWNobyAxMjM7IDwvc2NyaXB0Pg
+Type: POST
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:09 MSK 2014
+Vector: data%3A%3Bbase64%2CPHNjcmlwdCBsYW5ndWFnZT0icGhwIj4gZWNobyAxMjM7IDwvc2NyaXB0Pg
+Type: POST_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:09 MSK 2014
+Vector: data%3A%3Bbase64%2CPHNjcmlwdCBsYW5ndWFnZT0icGhwIj4gZWNobyAxMjM7IDwvc2NyaXB0Pg
+Type: COOKIE
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:09 MSK 2014
+Vector: data%3A%3Bbase64%2CPHNjcmlwdCBsYW5ndWFnZT0icGhwIj4gZWNobyAxMjM7IDwvc2NyaXB0Pg
+Type: COOKIE_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:09 MSK 2014
+Vector: data%3A%3Bbase64%2CPHNjcmlwdCBsYW5ndWFnZT0icGhwIj4gZWNobyAxMjM7IDwvc2NyaXB0Pg
+Type: HEADER
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+

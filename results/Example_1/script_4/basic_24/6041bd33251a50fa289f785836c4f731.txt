@@ -1,0 +1,112 @@
+Time: Wed May 14 15:16:07 MSK 2014
+Vector: Ls
+Type: GET
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:07 MSK 2014
+Vector: Ls
+Type: GET_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:07 MSK 2014
+Vector: Ls
+Type: POST
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:07 MSK 2014
+Vector: Ls
+Type: POST_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:07 MSK 2014
+Vector: Ls
+Type: COOKIE
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:07 MSK 2014
+Vector: Ls
+Type: COOKIE_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:07 MSK 2014
+Vector: Ls
+Type: HEADER
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+

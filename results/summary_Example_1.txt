@@ -1,0 +1,81 @@
+Type attack: RCE
+Total attack-queries: 182
+Basic queries: 13
+Total mutations: 1
+Total bypass: 0
+
+
+unknow
+GET: 26
+GET_INDEX: 26
+POST: 26
+POST_INDEX: 26
+COOKIE: 26
+COOKIE_INDEX: 26
+HEADER: 26
+
+GET mutation type statistics:
+COMMON_REGISTER 0 (0 / 13)
+
+GET_INDEX mutation type statistics:
+COMMON_REGISTER 0 (0 / 13)
+
+POST mutation type statistics:
+COMMON_REGISTER 0 (0 / 13)
+
+POST_INDEX mutation type statistics:
+COMMON_REGISTER 0 (0 / 13)
+
+COOKIE mutation type statistics:
+COMMON_REGISTER 0 (0 / 13)
+
+COOKIE_INDEX mutation type statistics:
+COMMON_REGISTER 0 (0 / 13)
+
+HEADER mutation type statistics:
+COMMON_REGISTER 0 (0 / 13)
+
+GET mutation id statistics:
+Random register 0 (0 / 13)
+
+GET_INDEX mutation id statistics:
+Random register 0 (0 / 13)
+
+POST mutation id statistics:
+Random register 0 (0 / 13)
+
+POST_INDEX mutation id statistics:
+Random register 0 (0 / 13)
+
+COOKIE mutation id statistics:
+Random register 0 (0 / 13)
+
+COOKIE_INDEX mutation id statistics:
+Random register 0 (0 / 13)
+
+HEADER mutation id statistics:
+Random register 0 (0 / 13)
+
+GET basic query id statistics:
+24 0 (0 / 26)
+
+GET_INDEX basic query id statistics:
+24 0 (0 / 26)
+
+POST basic query id statistics:
+24 0 (0 / 26)
+
+POST_INDEX basic query id statistics:
+24 0 (0 / 26)
+
+COOKIE basic query id statistics:
+24 0 (0 / 26)
+
+COOKIE_INDEX basic query id statistics:
+24 0 (0 / 26)
+
+HEADER basic query id statistics:
+24 0 (0 / 26)
+
+=========================
+

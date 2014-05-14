@@ -1,0 +1,112 @@
+Time: Wed May 14 15:16:10 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fzlib.deflate%2Fresource%3Dlongfilenameindexblahblah.png
+Type: GET
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:10 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fzlib.deflate%2Fresource%3Dlongfilenameindexblahblah.png
+Type: GET_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:10 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fzlib.deflate%2Fresource%3Dlongfilenameindexblahblah.png
+Type: POST
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:10 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fzlib.deflate%2Fresource%3Dlongfilenameindexblahblah.png
+Type: POST_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:10 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fzlib.deflate%2Fresource%3Dlongfilenameindexblahblah.png
+Type: COOKIE
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:10 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fzlib.deflate%2Fresource%3Dlongfilenameindexblahblah.png
+Type: COOKIE_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:10 MSK 2014
+Vector: php%3A%2F%2Ffilter%2Fzlib.deflate%2Fresource%3Dlongfilenameindexblahblah.png
+Type: HEADER
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+

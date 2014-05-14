@@ -1,0 +1,112 @@
+Time: Wed May 14 15:16:54 MSK 2014
+Vector: zlib%3A%5C..%5C..%5C..%5C..%5C..%5C...%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5Cboo%3C%3C
+Type: GET
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:54 MSK 2014
+Vector: zlib%3A%5C..%5C..%5C..%5C..%5C..%5C...%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5Cboo%3C%3C
+Type: GET_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:54 MSK 2014
+Vector: zlib%3A%5C..%5C..%5C..%5C..%5C..%5C...%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5Cboo%3C%3C
+Type: POST
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:54 MSK 2014
+Vector: zlib%3A%5C..%5C..%5C..%5C..%5C..%5C...%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5Cboo%3C%3C
+Type: POST_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:54 MSK 2014
+Vector: zlib%3A%5C..%5C..%5C..%5C..%5C..%5C...%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5Cboo%3C%3C
+Type: COOKIE
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:54 MSK 2014
+Vector: zlib%3A%5C..%5C..%5C..%5C..%5C..%5C...%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5Cboo%3C%3C
+Type: COOKIE_INDEX
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
+Time: Wed May 14 15:16:54 MSK 2014
+Vector: zlib%3A%5C..%5C..%5C..%5C..%5C..%5C...%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5C.%5Cboo%3C%3C
+Type: HEADER
+Result: Unknow
+Answer:
+
+<html>
+<head>
+<title>Перенаправление на служебный сайт Денвера...</title>
+<meta http-equiv=Refresh content="0; url=/denwer/">
+</head>
+</html>
+
+
+======
+
