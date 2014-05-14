@@ -7,7 +7,7 @@ The proposed methodology makes use of attack payloads that are mutated in variou
 
 The picture below demonstrates architecture of an application that had been developed to test and evaluate effectiveness of web application firewalls.
 
-.. image:: http://i.imgur.com/myTosWE.png
+![architecture](http://i.imgur.com/myTosWE.png)
 
 The main components of the application are:
 
