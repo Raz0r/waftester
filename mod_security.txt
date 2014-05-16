@@ -1,0 +1,840 @@
+Type attack: RCE
+Total attack-queries: 182
+Basic queries: 13
+Total mutations: 1
+Total bypass: 176
+
+
+bypass
+GET: 24
+GET_INDEX: 24
+POST: 26
+POST_INDEX: 26
+COOKIE: 24
+COOKIE_INDEX: 26
+HEADER: 26
+
+
+block
+GET: 2
+GET_INDEX: 2
+COOKIE: 2
+
+GET mutation type statistics:
+COMMON_REGISTER 0.92307692307692 (12 / 13)
+
+GET_INDEX mutation type statistics:
+COMMON_REGISTER 0.92307692307692 (12 / 13)
+
+POST mutation type statistics:
+COMMON_REGISTER 1 (13 / 13)
+
+POST_INDEX mutation type statistics:
+COMMON_REGISTER 1 (13 / 13)
+
+COOKIE mutation type statistics:
+COMMON_REGISTER 0.92307692307692 (12 / 13)
+
+COOKIE_INDEX mutation type statistics:
+COMMON_REGISTER 1 (13 / 13)
+
+HEADER mutation type statistics:
+COMMON_REGISTER 1 (13 / 13)
+
+GET mutation id statistics:
+Random register 0.92307692307692 (12 / 13)
+
+GET_INDEX mutation id statistics:
+Random register 0.92307692307692 (12 / 13)
+
+POST mutation id statistics:
+Random register 1 (13 / 13)
+
+POST_INDEX mutation id statistics:
+Random register 1 (13 / 13)
+
+COOKIE mutation id statistics:
+Random register 0.92307692307692 (12 / 13)
+
+COOKIE_INDEX mutation id statistics:
+Random register 1 (13 / 13)
+
+HEADER mutation id statistics:
+Random register 1 (13 / 13)
+
+GET basic query id statistics:
+24 0.92307692307692 (24 / 26)
+
+GET_INDEX basic query id statistics:
+24 0.92307692307692 (24 / 26)
+
+POST basic query id statistics:
+24 1 (26 / 26)
+
+POST_INDEX basic query id statistics:
+24 1 (26 / 26)
+
+COOKIE basic query id statistics:
+24 0.92307692307692 (24 / 26)
+
+COOKIE_INDEX basic query id statistics:
+24 1 (26 / 26)
+
+HEADER basic query id statistics:
+24 1 (26 / 26)
+
+=========================
+
+Type attack: LFI
+Total attack-queries: 8512
+Basic queries: 226
+Total mutations: 12
+Total bypass: 6200
+
+
+block
+GET: 728
+GET_INDEX: 1146
+COOKIE_INDEX: 222
+COOKIE: 216
+
+
+bypass
+POST: 1216
+POST_INDEX: 1216
+COOKIE: 1000
+COOKIE_INDEX: 994
+HEADER: 1216
+GET: 488
+GET_INDEX: 70
+
+GET mutation type statistics:
+LFI_WRAPPER_REGISTER 0.62301587301587 (157 / 252)
+LFI_WRAPPER_ADD 0.27358490566038 (174 / 636)
+LFI_PATH 0 (0 / 297)
+LFI_PHP_TAG 0 (0 / 25)
+LFI_DATA_BASE64 0 (0 / 19)
+LFI_DATA_MIMETYPE 0 (0 / 18)
+
+GET_INDEX mutation type statistics:
+LFI_WRAPPER_REGISTER 0.1031746031746 (26 / 252)
+LFI_PATH 0.043771043771044 (13 / 297)
+LFI_WRAPPER_ADD 0.018867924528302 (12 / 636)
+LFI_PHP_TAG 0 (0 / 25)
+LFI_DATA_BASE64 0 (0 / 19)
+LFI_DATA_MIMETYPE 0 (0 / 18)
+
+POST mutation type statistics:
+LFI_WRAPPER_ADD 1 (636 / 636)
+LFI_PATH 1 (297 / 297)
+LFI_WRAPPER_REGISTER 1 (252 / 252)
+LFI_PHP_TAG 1 (25 / 25)
+LFI_DATA_BASE64 1 (19 / 19)
+LFI_DATA_MIMETYPE 1 (18 / 18)
+
+POST_INDEX mutation type statistics:
+LFI_WRAPPER_ADD 1 (636 / 636)
+LFI_PATH 1 (297 / 297)
+LFI_WRAPPER_REGISTER 1 (252 / 252)
+LFI_PHP_TAG 1 (25 / 25)
+LFI_DATA_BASE64 1 (19 / 19)
+LFI_DATA_MIMETYPE 1 (18 / 18)
+
+COOKIE mutation type statistics:
+LFI_DATA_BASE64 1 (19 / 19)
+LFI_WRAPPER_REGISTER 0.88095238095238 (222 / 252)
+LFI_DATA_MIMETYPE 0.83333333333333 (15 / 18)
+LFI_WRAPPER_ADD 0.80503144654088 (512 / 636)
+LFI_PHP_TAG 0.76 (19 / 25)
+LFI_PATH 0.43434343434343 (129 / 297)
+
+COOKIE_INDEX mutation type statistics:
+LFI_DATA_BASE64 1 (19 / 19)
+LFI_WRAPPER_REGISTER 0.88095238095238 (222 / 252)
+LFI_WRAPPER_ADD 0.79874213836478 (508 / 636)
+LFI_PHP_TAG 0.64 (16 / 25)
+LFI_DATA_MIMETYPE 0.5 (9 / 18)
+LFI_PATH 0.43434343434343 (129 / 297)
+
+HEADER mutation type statistics:
+LFI_WRAPPER_ADD 1 (636 / 636)
+LFI_PATH 1 (297 / 297)
+LFI_WRAPPER_REGISTER 1 (252 / 252)
+LFI_PHP_TAG 1 (25 / 25)
+LFI_DATA_BASE64 1 (19 / 19)
+LFI_DATA_MIMETYPE 1 (18 / 18)
+
+GET mutation id statistics:
+Random register in wrapper 0.62301587301587 (157 / 252)
+Add compress.zlib wrapper 0.28155339805825 (87 / 309)
+Add zlib wrapper 0.26605504587156 (87 / 327)
+LFI path windows 0 (0 / 63)
+LFI path / to // 0 (0 / 63)
+LFI path / to /// 0 (0 / 63)
+From data:,test to data:;base64,dGVzdA== 0 (0 / 18)
+Add DATA mime-type 0 (0 / 18)
+PHP long tag 0 (0 / 13)
+PHP short tags 0 (0 / 12)
+Non-existed dir 0 (0 / 108)
+From data:,test to data:;base64,dGVzdA 0 (0 / 1)
+
+GET_INDEX mutation id statistics:
+Non-existed dir 0.12037037037037 (13 / 108)
+Random register in wrapper 0.1031746031746 (26 / 252)
+Add zlib wrapper 0.024464831804281 (8 / 327)
+Add compress.zlib wrapper 0.01294498381877 (4 / 309)
+LFI path / to /// 0 (0 / 63)
+LFI path windows 0 (0 / 63)
+LFI path / to // 0 (0 / 63)
+From data:,test to data:;base64,dGVzdA== 0 (0 / 18)
+Add DATA mime-type 0 (0 / 18)
+PHP long tag 0 (0 / 13)
+PHP short tags 0 (0 / 12)
+From data:,test to data:;base64,dGVzdA 0 (0 / 1)
+
+POST mutation id statistics:
+LFI path windows 1 (63 / 63)
+LFI path / to // 1 (63 / 63)
+LFI path / to /// 1 (63 / 63)
+Add zlib wrapper 1 (327 / 327)
+Add compress.zlib wrapper 1 (309 / 309)
+Random register in wrapper 1 (252 / 252)
+From data:,test to data:;base64,dGVzdA== 1 (18 / 18)
+Add DATA mime-type 1 (18 / 18)
+PHP long tag 1 (13 / 13)
+PHP short tags 1 (12 / 12)
+Non-existed dir 1 (108 / 108)
+From data:,test to data:;base64,dGVzdA 1 (1 / 1)
+
+POST_INDEX mutation id statistics:
+LFI path windows 1 (63 / 63)
+LFI path / to // 1 (63 / 63)
+LFI path / to /// 1 (63 / 63)
+Add zlib wrapper 1 (327 / 327)
+Add compress.zlib wrapper 1 (309 / 309)
+Random register in wrapper 1 (252 / 252)
+From data:,test to data:;base64,dGVzdA== 1 (18 / 18)
+Add DATA mime-type 1 (18 / 18)
+PHP long tag 1 (13 / 13)
+PHP short tags 1 (12 / 12)
+Non-existed dir 1 (108 / 108)
+From data:,test to data:;base64,dGVzdA 1 (1 / 1)
+
+COOKIE mutation id statistics:
+From data:,test to data:;base64,dGVzdA== 1 (18 / 18)
+PHP short tags 1 (12 / 12)
+From data:,test to data:;base64,dGVzdA 1 (1 / 1)
+Random register in wrapper 0.88095238095238 (222 / 252)
+Add DATA mime-type 0.83333333333333 (15 / 18)
+Add zlib wrapper 0.81039755351682 (265 / 327)
+Add compress.zlib wrapper 0.79935275080906 (247 / 309)
+Non-existed dir 0.61111111111111 (66 / 108)
+PHP long tag 0.53846153846154 (7 / 13)
+LFI path / to /// 0.33333333333333 (21 / 63)
+LFI path windows 0.33333333333333 (21 / 63)
+LFI path / to // 0.33333333333333 (21 / 63)
+
+COOKIE_INDEX mutation id statistics:
+From data:,test to data:;base64,dGVzdA== 1 (18 / 18)
+From data:,test to data:;base64,dGVzdA 1 (1 / 1)
+Random register in wrapper 0.88095238095238 (222 / 252)
+Add zlib wrapper 0.80428134556575 (263 / 327)
+Add compress.zlib wrapper 0.79288025889968 (245 / 309)
+PHP short tags 0.75 (9 / 12)
+Non-existed dir 0.61111111111111 (66 / 108)
+PHP long tag 0.53846153846154 (7 / 13)
+Add DATA mime-type 0.5 (9 / 18)
+LFI path / to /// 0.33333333333333 (21 / 63)
+LFI path windows 0.33333333333333 (21 / 63)
+LFI path / to // 0.33333333333333 (21 / 63)
+
+HEADER mutation id statistics:
+LFI path windows 1 (63 / 63)
+LFI path / to // 1 (63 / 63)
+LFI path / to /// 1 (63 / 63)
+Add zlib wrapper 1 (327 / 327)
+Add compress.zlib wrapper 1 (309 / 309)
+Random register in wrapper 1 (252 / 252)
+From data:,test to data:;base64,dGVzdA== 1 (18 / 18)
+Add DATA mime-type 1 (18 / 18)
+PHP long tag 1 (13 / 13)
+PHP short tags 1 (12 / 12)
+Non-existed dir 1 (108 / 108)
+From data:,test to data:;base64,dGVzdA 1 (1 / 1)
+
+GET basic query id statistics:
+3 1 (4 / 4)
+22 1 (4 / 4)
+5 0.88888888888889 (96 / 108)
+4 0.6 (384 / 640)
+2 0 (0 / 37)
+7 0 (0 / 315)
+6 0 (0 / 108)
+
+GET_INDEX basic query id statistics:
+3 0.5 (2 / 4)
+22 0.5 (2 / 4)
+5 0.33333333333333 (36 / 108)
+6 0.27777777777778 (30 / 108)
+4 0 (0 / 640)
+2 0 (0 / 37)
+7 0 (0 / 315)
+
+POST basic query id statistics:
+4 1 (640 / 640)
+22 1 (4 / 4)
+3 1 (4 / 4)
+2 1 (37 / 37)
+7 1 (315 / 315)
+5 1 (108 / 108)
+6 1 (108 / 108)
+
+POST_INDEX basic query id statistics:
+4 1 (640 / 640)
+22 1 (4 / 4)
+3 1 (4 / 4)
+2 1 (37 / 37)
+7 1 (315 / 315)
+5 1 (108 / 108)
+6 1 (108 / 108)
+
+COOKIE basic query id statistics:
+4 1 (640 / 640)
+22 1 (4 / 4)
+3 1 (4 / 4)
+6 1 (108 / 108)
+5 1 (108 / 108)
+2 0.83783783783784 (31 / 37)
+7 0.33333333333333 (105 / 315)
+
+COOKIE_INDEX basic query id statistics:
+4 1 (640 / 640)
+22 1 (4 / 4)
+3 1 (4 / 4)
+6 1 (108 / 108)
+5 1 (108 / 108)
+2 0.67567567567568 (25 / 37)
+7 0.33333333333333 (105 / 315)
+
+HEADER basic query id statistics:
+4 1 (640 / 640)
+22 1 (4 / 4)
+3 1 (4 / 4)
+2 1 (37 / 37)
+7 1 (315 / 315)
+5 1 (108 / 108)
+6 1 (108 / 108)
+
+=========================
+
+Type attack: SQL
+Total attack-queries: 186634
+Basic queries: 51
+Total mutations: 47
+Total bypass: 72702
+
+
+block
+GET: 26660
+GET_INDEX: 24981
+COOKIE: 26661
+COOKIE_INDEX: 24981
+
+
+bypass
+POST: 26661
+POST_INDEX: 24980
+HEADER: 21061
+
+
+unknow
+HEADER: 5601
+GET_INDEX: 1
+POST: 1
+POST_INDEX: 2
+COOKIE: 1
+COOKIE_INDEX: 1
+GET: 2
+
+GET mutation type statistics:
+SQL_UNION 0 (0 / 8990)
+SQL_VERSION 0 (0 / 8858)
+SQL_1_IS_1 0 (0 / 6542)
+SQL_AND 0 (0 / 444)
+SQL_FALSE_WHERE 0 (0 / 4144)
+COMMON_SPACE 0 (0 / 22792)
+SQL_MYSQL_EXEC_COMMENT 0 (0 / 15012)
+COMMON_REGISTER 0 (0 / 13325)
+SQL_STRING 0 (0 / 12460)
+
+GET_INDEX mutation type statistics:
+SQL_UNION 0 (0 / 8420)
+SQL_VERSION 0 (0 / 8306)
+SQL_1_IS_1 0 (0 / 6152)
+SQL_AND 0 (0 / 444)
+SQL_FALSE_WHERE 0 (0 / 4144)
+COMMON_SPACE 0 (0 / 21112)
+SQL_MYSQL_EXEC_COMMENT 0 (0 / 13892)
+COMMON_REGISTER 0 (0 / 12485)
+SQL_STRING 0 (0 / 11668)
+
+POST mutation type statistics:
+SQL_1_IS_1 1 (6542 / 6542)
+SQL_AND 1 (444 / 444)
+SQL_FALSE_WHERE 1 (4144 / 4144)
+SQL_MYSQL_EXEC_COMMENT 1 (15012 / 15012)
+COMMON_REGISTER 1 (13325 / 13325)
+SQL_STRING 1 (12460 / 12460)
+COMMON_SPACE 0.99995612495612 (22791 / 22792)
+SQL_UNION 0.99988876529477 (8989 / 8990)
+SQL_VERSION 0.99988710769925 (8857 / 8858)
+
+POST_INDEX mutation type statistics:
+SQL_1_IS_1 1 (6152 / 6152)
+SQL_AND 1 (444 / 444)
+SQL_FALSE_WHERE 1 (4144 / 4144)
+SQL_MYSQL_EXEC_COMMENT 0.99992801612439 (13891 / 13892)
+COMMON_REGISTER 0.99991990388466 (12484 / 12485)
+SQL_STRING 0.99991429550908 (11667 / 11668)
+COMMON_SPACE 0.99990526714665 (21110 / 21112)
+SQL_UNION 0.99988123515439 (8419 / 8420)
+SQL_VERSION 0.99975921020949 (8304 / 8306)
+
+COOKIE mutation type statistics:
+SQL_UNION 0 (0 / 8990)
+SQL_VERSION 0 (0 / 8858)
+SQL_1_IS_1 0 (0 / 6542)
+SQL_AND 0 (0 / 444)
+SQL_FALSE_WHERE 0 (0 / 4144)
+COMMON_SPACE 0 (0 / 22792)
+SQL_MYSQL_EXEC_COMMENT 0 (0 / 15012)
+COMMON_REGISTER 0 (0 / 13325)
+SQL_STRING 0 (0 / 12460)
+
+COOKIE_INDEX mutation type statistics:
+SQL_UNION 0 (0 / 8420)
+SQL_VERSION 0 (0 / 8306)
+SQL_1_IS_1 0 (0 / 6152)
+SQL_AND 0 (0 / 444)
+SQL_FALSE_WHERE 0 (0 / 4144)
+COMMON_SPACE 0 (0 / 21112)
+SQL_MYSQL_EXEC_COMMENT 0 (0 / 13892)
+COMMON_REGISTER 0 (0 / 12485)
+SQL_STRING 0 (0 / 11668)
+
+HEADER mutation type statistics:
+SQL_AND 0.90540540540541 (402 / 444)
+SQL_FALSE_WHERE 0.875 (3626 / 4144)
+SQL_1_IS_1 0.79486395597677 (5200 / 6542)
+SQL_VERSION 0.79024610521562 (7000 / 8858)
+COMMON_REGISTER 0.78986866791745 (10525 / 13325)
+SQL_STRING 0.78932584269663 (9835 / 12460)
+SQL_UNION 0.78932146829811 (7096 / 8990)
+SQL_MYSQL_EXEC_COMMENT 0.77424726885159 (11623 / 15012)
+COMMON_SPACE 0.75425587925588 (17191 / 22792)
+
+GET mutation id statistics:
+From union select to union all select 0 (0 / 8990)
+Replace version 0 (0 / 8858)
+Replace 'aaa' to 0x616161 0 (0 / 7900)
+Add /*!123456blablah*/ comment 0 (0 / 7506)
+Add /*!blablah*/ comment 0 (0 / 7506)
+Replace where condition to false 3 0 (0 / 518)
+Replace where condition to false 2 0 (0 / 518)
+Replace 'aaa' to X'616161' 0 (0 / 4560)
+SQL "and" replace 0 (0 / 444)
+1=1 replace, position 0 (0 / 424)
+1=1 replace, instr 0 (0 / 400)
+1=1 replace, hex 0 (0 / 400)
+1=1 replace, locate_2 0 (0 / 400)
+1=1 replace, lpad 0 (0 / 400)
+1=1 replace, substring_index 0 (0 / 400)
+1=1 replace, concat 0 (0 / 400)
+1=1 replace, concat_ws 0 (0 / 400)
+1=1 replace, right 0 (0 / 400)
+1=1 replace, locate_1 0 (0 / 400)
+1=1 replace, rpad 0 (0 / 400)
+Replace where condition to false 1 0 (0 / 3108)
+From %20 to %0a 0 (0 / 2240)
+From %20 to %a0 0 (0 / 2198)
+From %20 to %0d 0 (0 / 2198)
+From %20 to %09 0 (0 / 2198)
+From %20 to %0c 0 (0 / 2198)
+1=1 replace, substring_2 0 (0 / 212)
+1=1 replace, mid 0 (0 / 200)
+1=1 replace, left 0 (0 / 200)
+1=1 replace, ascii 0 (0 / 200)
+1=1 replace, ord 0 (0 / 200)
+1=1 replace, substring_3 0 (0 / 200)
+1=1 replace, bin 0 (0 / 200)
+1=1 replace, conv 0 (0 / 200)
+1=1 replace, substring_1 0 (0 / 200)
+1=1 replace, oct 0 (0 / 200)
+From %20 to /**/ 0 (0 / 1680)
+From %20 to  /*blahblah*/ 0 (0 / 1680)
+From %20 to %0b 0 (0 / 1680)
+From %20 to %23%0a 0 (0 / 1680)
+From %20 to %2B (urldecode) 0 (0 / 1680)
+From %20 to --%0a 0 (0 / 1680)
+From %20 to /*%00*/ 0 (0 / 1680)
+Random register 0 (0 / 13325)
+1=1 replace, between 0 (0 / 106)
+
+GET_INDEX mutation id statistics:
+From union select to union all select 0 (0 / 8420)
+Replace version 0 (0 / 8306)
+Replace 'aaa' to 0x616161 0 (0 / 7402)
+Add /*!blablah*/ comment 0 (0 / 6946)
+Add /*!123456blablah*/ comment 0 (0 / 6946)
+Replace where condition to false 3 0 (0 / 518)
+Replace where condition to false 2 0 (0 / 518)
+SQL "and" replace 0 (0 / 444)
+Replace 'aaa' to X'616161' 0 (0 / 4266)
+1=1 replace, position 0 (0 / 400)
+1=1 replace, locate_2 0 (0 / 376)
+1=1 replace, lpad 0 (0 / 376)
+1=1 replace, instr 0 (0 / 376)
+1=1 replace, substring_index 0 (0 / 376)
+1=1 replace, hex 0 (0 / 376)
+1=1 replace, concat 0 (0 / 376)
+1=1 replace, right 0 (0 / 376)
+1=1 replace, concat_ws 0 (0 / 376)
+1=1 replace, locate_1 0 (0 / 376)
+1=1 replace, rpad 0 (0 / 376)
+Replace where condition to false 1 0 (0 / 3108)
+From %20 to %0a 0 (0 / 2240)
+From %20 to %a0 0 (0 / 2198)
+From %20 to %0d 0 (0 / 2198)
+From %20 to %09 0 (0 / 2198)
+From %20 to %0c 0 (0 / 2198)
+1=1 replace, substring_2 0 (0 / 200)
+1=1 replace, mid 0 (0 / 188)
+1=1 replace, left 0 (0 / 188)
+1=1 replace, ascii 0 (0 / 188)
+1=1 replace, conv 0 (0 / 188)
+1=1 replace, substring_3 0 (0 / 188)
+1=1 replace, bin 0 (0 / 188)
+1=1 replace, ord 0 (0 / 188)
+1=1 replace, oct 0 (0 / 188)
+1=1 replace, substring_1 0 (0 / 188)
+From %20 to  /*blahblah*/ 0 (0 / 1680)
+From %20 to /**/ 0 (0 / 1680)
+From %20 to %23%0a 0 (0 / 1680)
+From %20 to %2B (urldecode) 0 (0 / 1680)
+From %20 to %0b 0 (0 / 1680)
+From %20 to --%0a 0 (0 / 1680)
+Random register 0 (0 / 12485)
+1=1 replace, between 0 (0 / 100)
+
+POST mutation id statistics:
+Replace 'aaa' to 0x616161 1 (7900 / 7900)
+Add /*!blablah*/ comment 1 (7506 / 7506)
+Add /*!123456blablah*/ comment 1 (7506 / 7506)
+Replace where condition to false 3 1 (518 / 518)
+Replace where condition to false 2 1 (518 / 518)
+Replace 'aaa' to X'616161' 1 (4560 / 4560)
+SQL "and" replace 1 (444 / 444)
+1=1 replace, position 1 (424 / 424)
+1=1 replace, locate_2 1 (400 / 400)
+1=1 replace, hex 1 (400 / 400)
+1=1 replace, concat 1 (400 / 400)
+1=1 replace, concat_ws 1 (400 / 400)
+1=1 replace, locate_1 1 (400 / 400)
+1=1 replace, instr 1 (400 / 400)
+1=1 replace, substring_index 1 (400 / 400)
+1=1 replace, rpad 1 (400 / 400)
+1=1 replace, right 1 (400 / 400)
+1=1 replace, lpad 1 (400 / 400)
+Replace where condition to false 1 1 (3108 / 3108)
+From %20 to %0a 1 (2240 / 2240)
+From %20 to %09 1 (2198 / 2198)
+From %20 to %0d 1 (2198 / 2198)
+From %20 to %0c 1 (2198 / 2198)
+From %20 to %a0 1 (2198 / 2198)
+1=1 replace, substring_2 1 (212 / 212)
+1=1 replace, substring_3 1 (200 / 200)
+1=1 replace, mid 1 (200 / 200)
+1=1 replace, left 1 (200 / 200)
+1=1 replace, ascii 1 (200 / 200)
+1=1 replace, substring_1 1 (200 / 200)
+1=1 replace, ord 1 (200 / 200)
+1=1 replace, conv 1 (200 / 200)
+1=1 replace, oct 1 (200 / 200)
+1=1 replace, bin 1 (200 / 200)
+From %20 to /*%00*/ 1 (1680 / 1680)
+From %20 to --%0a 1 (1680 / 1680)
+From %20 to %2B (urldecode) 1 (1680 / 1680)
+From %20 to /**/ 1 (1680 / 1680)
+From %20 to %23%0a 1 (1680 / 1680)
+From %20 to %0b 1 (1680 / 1680)
+Random register 1 (13325 / 13325)
+1=1 replace, between 1 (106 / 106)
+From union select to union all select 0.99988876529477 (8989 / 8990)
+Replace version 0.99988710769925 (8857 / 8858)
+From %20 to  /*blahblah*/ 0.99940476190476 (1679 / 1680)
+
+POST_INDEX mutation id statistics:
+Replace 'aaa' to 0x616161 1 (7402 / 7402)
+Add /*!123456blablah*/ comment 1 (6946 / 6946)
+Replace where condition to false 3 1 (518 / 518)
+Replace where condition to false 2 1 (518 / 518)
+SQL "and" replace 1 (444 / 444)
+1=1 replace, position 1 (400 / 400)
+1=1 replace, locate_1 1 (376 / 376)
+1=1 replace, hex 1 (376 / 376)
+1=1 replace, concat 1 (376 / 376)
+1=1 replace, concat_ws 1 (376 / 376)
+1=1 replace, instr 1 (376 / 376)
+1=1 replace, locate_2 1 (376 / 376)
+1=1 replace, lpad 1 (376 / 376)
+1=1 replace, right 1 (376 / 376)
+1=1 replace, substring_index 1 (376 / 376)
+1=1 replace, rpad 1 (376 / 376)
+Replace where condition to false 1 1 (3108 / 3108)
+From %20 to %0a 1 (2240 / 2240)
+From %20 to %09 1 (2198 / 2198)
+From %20 to %0d 1 (2198 / 2198)
+From %20 to %0c 1 (2198 / 2198)
+From %20 to %a0 1 (2198 / 2198)
+1=1 replace, substring_2 1 (200 / 200)
+1=1 replace, substring_3 1 (188 / 188)
+1=1 replace, mid 1 (188 / 188)
+1=1 replace, left 1 (188 / 188)
+1=1 replace, ascii 1 (188 / 188)
+1=1 replace, ord 1 (188 / 188)
+1=1 replace, substring_1 1 (188 / 188)
+1=1 replace, conv 1 (188 / 188)
+1=1 replace, bin 1 (188 / 188)
+1=1 replace, oct 1 (188 / 188)
+From %20 to %2B (urldecode) 1 (1680 / 1680)
+From %20 to %23%0a 1 (1680 / 1680)
+From %20 to --%0a 1 (1680 / 1680)
+From %20 to %0b 1 (1680 / 1680)
+From %20 to /**/ 1 (1680 / 1680)
+1=1 replace, between 1 (100 / 100)
+Random register 0.99991990388466 (12484 / 12485)
+From union select to union all select 0.99988123515439 (8419 / 8420)
+Add /*!blablah*/ comment 0.99985603224878 (6945 / 6946)
+Replace 'aaa' to X'616161' 0.99976558837318 (4265 / 4266)
+Replace version 0.99975921020949 (8304 / 8306)
+From %20 to  /*blahblah*/ 0.99880952380952 (1678 / 1680)
+
+COOKIE mutation id statistics:
+From union select to union all select 0 (0 / 8990)
+Replace version 0 (0 / 8858)
+Replace 'aaa' to 0x616161 0 (0 / 7900)
+Add /*!123456blablah*/ comment 0 (0 / 7506)
+Add /*!blablah*/ comment 0 (0 / 7506)
+Replace where condition to false 3 0 (0 / 518)
+Replace where condition to false 2 0 (0 / 518)
+Replace 'aaa' to X'616161' 0 (0 / 4560)
+SQL "and" replace 0 (0 / 444)
+1=1 replace, position 0 (0 / 424)
+1=1 replace, instr 0 (0 / 400)
+1=1 replace, hex 0 (0 / 400)
+1=1 replace, locate_2 0 (0 / 400)
+1=1 replace, lpad 0 (0 / 400)
+1=1 replace, substring_index 0 (0 / 400)
+1=1 replace, concat 0 (0 / 400)
+1=1 replace, concat_ws 0 (0 / 400)
+1=1 replace, right 0 (0 / 400)
+1=1 replace, locate_1 0 (0 / 400)
+1=1 replace, rpad 0 (0 / 400)
+Replace where condition to false 1 0 (0 / 3108)
+From %20 to %0a 0 (0 / 2240)
+From %20 to %a0 0 (0 / 2198)
+From %20 to %0d 0 (0 / 2198)
+From %20 to %09 0 (0 / 2198)
+From %20 to %0c 0 (0 / 2198)
+1=1 replace, substring_2 0 (0 / 212)
+1=1 replace, mid 0 (0 / 200)
+1=1 replace, left 0 (0 / 200)
+1=1 replace, ascii 0 (0 / 200)
+1=1 replace, ord 0 (0 / 200)
+1=1 replace, substring_3 0 (0 / 200)
+1=1 replace, bin 0 (0 / 200)
+1=1 replace, conv 0 (0 / 200)
+1=1 replace, substring_1 0 (0 / 200)
+1=1 replace, oct 0 (0 / 200)
+From %20 to /**/ 0 (0 / 1680)
+From %20 to  /*blahblah*/ 0 (0 / 1680)
+From %20 to %0b 0 (0 / 1680)
+From %20 to %23%0a 0 (0 / 1680)
+From %20 to %2B (urldecode) 0 (0 / 1680)
+From %20 to --%0a 0 (0 / 1680)
+From %20 to /*%00*/ 0 (0 / 1680)
+Random register 0 (0 / 13325)
+1=1 replace, between 0 (0 / 106)
+
+COOKIE_INDEX mutation id statistics:
+From union select to union all select 0 (0 / 8420)
+Replace version 0 (0 / 8306)
+Replace 'aaa' to 0x616161 0 (0 / 7402)
+Add /*!blablah*/ comment 0 (0 / 6946)
+Add /*!123456blablah*/ comment 0 (0 / 6946)
+Replace where condition to false 3 0 (0 / 518)
+Replace where condition to false 2 0 (0 / 518)
+SQL "and" replace 0 (0 / 444)
+Replace 'aaa' to X'616161' 0 (0 / 4266)
+1=1 replace, position 0 (0 / 400)
+1=1 replace, locate_2 0 (0 / 376)
+1=1 replace, lpad 0 (0 / 376)
+1=1 replace, instr 0 (0 / 376)
+1=1 replace, substring_index 0 (0 / 376)
+1=1 replace, hex 0 (0 / 376)
+1=1 replace, concat 0 (0 / 376)
+1=1 replace, right 0 (0 / 376)
+1=1 replace, concat_ws 0 (0 / 376)
+1=1 replace, locate_1 0 (0 / 376)
+1=1 replace, rpad 0 (0 / 376)
+Replace where condition to false 1 0 (0 / 3108)
+From %20 to %0a 0 (0 / 2240)
+From %20 to %a0 0 (0 / 2198)
+From %20 to %0d 0 (0 / 2198)
+From %20 to %09 0 (0 / 2198)
+From %20 to %0c 0 (0 / 2198)
+1=1 replace, substring_2 0 (0 / 200)
+1=1 replace, mid 0 (0 / 188)
+1=1 replace, left 0 (0 / 188)
+1=1 replace, ascii 0 (0 / 188)
+1=1 replace, conv 0 (0 / 188)
+1=1 replace, substring_3 0 (0 / 188)
+1=1 replace, bin 0 (0 / 188)
+1=1 replace, ord 0 (0 / 188)
+1=1 replace, oct 0 (0 / 188)
+1=1 replace, substring_1 0 (0 / 188)
+From %20 to  /*blahblah*/ 0 (0 / 1680)
+From %20 to /**/ 0 (0 / 1680)
+From %20 to %23%0a 0 (0 / 1680)
+From %20 to %2B (urldecode) 0 (0 / 1680)
+From %20 to %0b 0 (0 / 1680)
+From %20 to --%0a 0 (0 / 1680)
+Random register 0 (0 / 12485)
+1=1 replace, between 0 (0 / 100)
+
+HEADER mutation id statistics:
+Replace where condition to false 2 1 (518 / 518)
+Replace where condition to false 3 1 (518 / 518)
+From %20 to %0c 1 (2198 / 2198)
+From %20 to %09 1 (2198 / 2198)
+From %20 to %0d 1 (2198 / 2198)
+From %20 to  /*blahblah*/ 1 (1680 / 1680)
+From %20 to /**/ 1 (1680 / 1680)
+From %20 to %0b 1 (1680 / 1680)
+From %20 to %2B (urldecode) 1 (1680 / 1680)
+From %20 to /*%00*/ 1 (1680 / 1680)
+From %20 to %a0 0.99954504094631 (2197 / 2198)
+SQL "and" replace 0.90540540540541 (402 / 444)
+Replace where condition to false 1 0.83333333333333 (2590 / 3108)
+1=1 replace, locate_2 0.8 (320 / 400)
+1=1 replace, hex 0.8 (320 / 400)
+1=1 replace, instr 0.8 (320 / 400)
+1=1 replace, concat 0.8 (320 / 400)
+1=1 replace, concat_ws 0.8 (320 / 400)
+1=1 replace, locate_1 0.8 (320 / 400)
+1=1 replace, right 0.8 (320 / 400)
+1=1 replace, lpad 0.8 (320 / 400)
+1=1 replace, rpad 0.8 (320 / 400)
+1=1 replace, substring_index 0.8 (320 / 400)
+1=1 replace, substring_3 0.8 (160 / 200)
+1=1 replace, substring_1 0.8 (160 / 200)
+1=1 replace, left 0.8 (160 / 200)
+1=1 replace, mid 0.8 (160 / 200)
+1=1 replace, ascii 0.8 (160 / 200)
+1=1 replace, ord 0.8 (160 / 200)
+1=1 replace, conv 0.8 (160 / 200)
+1=1 replace, bin 0.8 (160 / 200)
+1=1 replace, oct 0.8 (160 / 200)
+Replace version 0.79024610521562 (7000 / 8858)
+Replace 'aaa' to 0x616161 0.79012658227848 (6242 / 7900)
+Random register 0.78986866791745 (10525 / 13325)
+From union select to union all select 0.78932146829811 (7096 / 8990)
+Replace 'aaa' to X'616161' 0.78793859649123 (3593 / 4560)
+Add /*!blablah*/ comment 0.77431388222755 (5812 / 7506)
+Add /*!123456blablah*/ comment 0.77418065547562 (5811 / 7506)
+1=1 replace, between 0.75471698113208 (80 / 106)
+1=1 replace, position 0.75471698113208 (320 / 424)
+1=1 replace, substring_2 0.75471698113208 (160 / 212)
+From %20 to %0a 0 (0 / 2240)
+From %20 to --%0a 0 (0 / 1680)
+From %20 to %23%0a 0 (0 / 1680)
+
+GET basic query id statistics:
+8 0 (0 / 6930)
+15 0 (0 / 564)
+10 0 (0 / 2632)
+14 0 (0 / 234)
+11 0 (0 / 234)
+9 0 (0 / 216)
+12 0 (0 / 18)
+1 0 (0 / 14664)
+13 0 (0 / 1170)
+
+GET_INDEX basic query id statistics:
+8 0 (0 / 6516)
+15 0 (0 / 528)
+10 0 (0 / 2464)
+14 0 (0 / 216)
+11 0 (0 / 216)
+9 0 (0 / 216)
+12 0 (0 / 18)
+1 0 (0 / 13728)
+13 0 (0 / 1080)
+
+POST basic query id statistics:
+8 1 (6930 / 6930)
+15 1 (564 / 564)
+10 1 (2632 / 2632)
+14 1 (234 / 234)
+11 1 (234 / 234)
+9 1 (216 / 216)
+12 1 (18 / 18)
+13 1 (1170 / 1170)
+1 0.99993180578287 (14663 / 14664)
+
+POST_INDEX basic query id statistics:
+8 1 (6516 / 6516)
+15 1 (528 / 528)
+10 1 (2464 / 2464)
+14 1 (216 / 216)
+11 1 (216 / 216)
+9 1 (216 / 216)
+12 1 (18 / 18)
+13 1 (1080 / 1080)
+1 0.99985431235431 (13726 / 13728)
+
+COOKIE basic query id statistics:
+8 0 (0 / 6930)
+15 0 (0 / 564)
+10 0 (0 / 2632)
+14 0 (0 / 234)
+11 0 (0 / 234)
+9 0 (0 / 216)
+12 0 (0 / 18)
+1 0 (0 / 14664)
+13 0 (0 / 1170)
+
+COOKIE_INDEX basic query id statistics:
+8 0 (0 / 6516)
+15 0 (0 / 528)
+10 0 (0 / 2464)
+14 0 (0 / 216)
+11 0 (0 / 216)
+9 0 (0 / 216)
+12 0 (0 / 18)
+1 0 (0 / 13728)
+13 0 (0 / 1080)
+
+HEADER basic query id statistics:
+9 1 (216 / 216)
+12 1 (18 / 18)
+8 0.79480519480519 (5508 / 6930)
+10 0.78723404255319 (2072 / 2632)
+1 0.78723404255319 (11544 / 14664)
+15 0.7854609929078 (443 / 564)
+13 0.76923076923077 (900 / 1170)
+11 0.76923076923077 (180 / 234)
+14 0.76923076923077 (180 / 234)
+
+=========================
+

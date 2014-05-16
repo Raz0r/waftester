@@ -5,6 +5,8 @@ When one finds a vulnerability in source code of a web application using white b
 
 The proposed methodology makes use of attack payloads that are mutated in various ways. It allows to test web application firewalls more thoroughly.
 
+You can see evalutaion results for mod_security with Core Rule Set (as of 28.02.2012) in [mod_security.txt](mod_security.txt)
+
 The picture below demonstrates architecture of an application that had been developed to test and evaluate effectiveness of web application firewalls.
 
 ![architecture](http://i.imgur.com/myTosWE.png)
